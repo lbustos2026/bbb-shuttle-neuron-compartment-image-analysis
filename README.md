@@ -33,8 +33,9 @@ This pipeline processes object-level imaging exports and performs:
 ---
 
 ## Data Availability ##
-The full Imaging dataset is avaialble on Zenodo:
+The full Imaging dataset is avaialble on Zenodo: 
 https://doi.org/10.5281/zenodo.19268121
+
 Download and unzip into project_dir
 
 ---
@@ -105,16 +106,19 @@ tibble
 
 ### Running the Analysis ###
 1. Clone or download this repository
-3. Open R and ensure the Data/ folder is present in the `project_dir`
-4. Run Script: "BBB_Shuttle_Neuron_Image_AnalysisScript_LBustos_2026.R"
+2. Open R and ensure the Data/ folder is present in the `project_dir`
+3. Run Script: "BBB_Shuttle_Neuron_Image_AnalysisScript_LBustos_2026.R"
 
 ### Output ###
+```
 Outputs/
 ├── EE/
 ├── RE/
 ├── Lyso/
 └── Compartment_Analysis/
- Generated outputs include:
+```
+ 
+ ### Generated outputs include:
 
 1. Summary tables
 - Per-well (animal-level) normalized Cy5 intensity
